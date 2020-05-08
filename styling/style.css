@@ -1,0 +1,145 @@
+*{
+ box-sizing: border-box;
+ padding:0;
+ margin:0;   
+}
+header{
+    background-color:#000000;
+    color:#ffffff;
+    padding-top:1%;
+    padding-bottom:1%;
+    position:fixed;
+    width: 100%;
+    display:block;
+    z-index: 4;
+    min-height: 10%;
+}
+a.navitem{
+    text-decoration:none;
+    display: inline;
+    color:#ffffff;
+    padding:15px;
+}
+a.navitem:hover{
+    color:cyan;
+}
+a.navitem:active{
+    color:cyan;
+}
+a.login:hover{
+    color:aquamarine;
+}
+header h2{
+    font-size: 30px;
+    font-weight:50;
+    display:inline;
+    padding-left: 15%;
+    padding-right:10%;
+}
+.intro{
+    text-align:center;
+    min-height: 800px;
+    position: relative;
+    top:60px;
+    overflow: 0;
+    display: block;
+    background-image:url(https://www.kcrw.com/culture/shows/design-and-architecture/coworking-after-wework-autographs-of-la/what-weworks-implosion-means-for-other-coworking-spaces/@@images/aa8074c4-d118-47a3-96e0-505bd1d25773.jpeg);
+}
+.about{
+    background-image: url(https://allwork.space/wp-content/uploads/2018/03/aws-hotels-1-featured-800x450.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    align-items: center;
+    display: inline-block;
+    margin-top: 50px;
+    min-height: 800px;
+    min-width: 100%;
+}
+.content{
+    background-color: white;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    position: relative;
+    vertical-align: middle;
+}
+.content h1{
+    padding-top: 15%;
+    font-size:300%;
+}
+.content p{
+    word-spacing: 600%;
+    padding:15%;
+    font-size: 150%;
+}
+.community{
+    text-align: center;
+    padding-top:8%;
+    padding-bottom:8%;
+}
+.space{
+    background-color: cyan;
+    color:white;
+    text-align: center;
+    padding-top:5%;
+    padding-bottom:5%;
+}
+.membership{
+    text-align: center;
+    padding-top:8%;
+    padding-bottom:5%;
+    min-height: 100px;
+    background-color:white;
+}
+table{
+    align-items: center;
+    height:30%;
+    
+}
+td{
+    padding-left:5%;
+    padding-right: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    width:10%;
+    height:5%;
+}
+tr{
+    border: 0px;
+    padding: 0px;
+}
+.contact{
+    background-image: url(https://www.wework.com/ideas/wp-content/uploads/sites/4/2019/07/Web_72DPI-20170720-Torre-Bellini-by-Caro-Patlis-Common-Areas-43-1-1120x630.jpg);
+    text-align: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.tile{
+    background-color:rgb(0,0,0,0.6);
+    color:white;
+    min-height:500px;
+}
+input::placeholder{
+    color: white;
+    letter-spacing: 1px;
+}
+input:hover{   
+    background-color: teal;
+}
+footer{
+    background-color:rgb(68, 68, 67);
+    min-height: 10%;
+}
+footer p{
+    padding-left:20%;
+    padding-top:2%;
+    padding-bottom: 2%;
+    color:white;
+}
+a.creator{
+    
+    color:#ecadad83;
+
+}
